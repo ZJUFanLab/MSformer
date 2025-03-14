@@ -15,7 +15,7 @@ Pretrained on 400,000 NPs deconstructed into 234 million meta structures, MSform
 ✅ Interpretable fragment-level attribution  
 ✅ Bioactive scaffold discovery from approved drugs
 
-
+![img](image/msformer.jpg "MSformer")
 # Install
 ### System Requirements
 - NVIDIA GPU with CUDA 11.7
@@ -43,7 +43,7 @@ from masskg import *
 molecules = ['O=C(OC1C(O)C(O)C(OC1OC2(OC(CO)C(O)C2O)CO)CO)C3=CC(O)=C(O)C(O)=C3','OCC1OC(OC2C(O)C(OC)OC(COC3OCC(O)C(O)C3O)C2O)C(O)C(O)C1O']
 frag_smiles = [fragments_generation(x) if len(x)<=202 else set(x) for x in molecules]
 ```
-A pre-trained model can be downloaded from Google drive [Google Drive](). Then experiments can be excuated based on this model.
+A pre-trained model can be downloaded from Google drive [Google Drive](https://drive.google.com/file/d/1Bkq_vIow80VTLHZ_rWQl_QBggWcfPAeU/view?usp=drive_link). Then experiments can be excuated based on this model.
 ```
 # finetune on MoleculeNet and TDC tasks
 . run_classification_tdc.sh
