@@ -68,6 +68,16 @@ fig = generate_visualization(processed_data)
 
 # Data availability 
 We offered the source data of finetune tasks, users can process the source data follow [data_process.ipynb]().
+## 📁 Datasets
+
+To ensure full reproducibility, the exact versions of the datasets used in this study are listed below.
+
+| Dataset | Version / Download Date | Source Link | Notes |
+|---------|-------------------------|-------------|-------|
+| **COCONUT** | 2022 | [COCONUT Download](https://coconut.naturalproducts.net/download) | Used for pre-training. Contains over 400,000 natural product structures. |
+| **MoleculeNet** | 2017 | [MoleculeNet](https://moleculenet.org/datasets-1) | Used for downstream task evaluation (BBBP, Tox21, ClinTox, BACE, SIDER). |
+| **TDC** | 0.4.1 (Released in 2023) | [TDC Documentation](https://tdcommons.ai/) | Used for downstream HTS evaluation. Datasets: `CACNA1H`, `Kcnj2`, `CHRM1`, `HCRTR1`, `SLC5A7`, `KCNQ2`, `STK33`, `TDP1`, `SARS-CoV-2`, `HIV`. |
+
 
 # Cite
 [PMID:](https://pubmed.ncbi.nlm.nih.gov/XXX/)
