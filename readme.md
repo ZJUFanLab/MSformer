@@ -80,6 +80,6 @@ To ensure full reproducibility, the exact versions of the datasets used in this 
 
 
 # Cite
-[PMID:](https://pubmed.ncbi.nlm.nih.gov/XXX/)
+Zhu B, et al. Anal Chem. 2025. [PMID:41201272](http://pubs.acs.org/doi/abs/10.1021/acs.analchem.5c03958)
 
 Should you have any questions, please contact Bingjie Zhu at zhubj@zju.edu.cn
